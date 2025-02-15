@@ -1,0 +1,24 @@
+
+
+.myColor{
+    color: #FF7F50;
+}
+
+.searchBar{
+    border: solid 2px #FF7F50;
+    padding: 10px 20px 10px 10px;
+    border-radius: 30px;
+}
+
+
+  .bgColor{
+    background-color: #FF7F50;
+  }
+
+  .myInput:focus{
+    border: solid 2px #FF7F50;
+  }
+  .myInput{
+    padding: 5px;
+    border: solid 1px rgb(199, 195, 195);
+  }

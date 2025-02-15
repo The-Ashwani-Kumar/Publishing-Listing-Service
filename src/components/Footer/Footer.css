@@ -1,0 +1,12 @@
+/* Footer.css */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa; /* Adjust background color as needed */
+  color: #333; /* Adjust text color as needed */
+  text-align: center;
+  padding: 10px 0;
+  border-top: 2px solid #FF7F50;  
+}

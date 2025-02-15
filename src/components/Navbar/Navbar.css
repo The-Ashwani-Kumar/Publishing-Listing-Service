@@ -1,0 +1,45 @@
+li{
+    display: inline;
+    padding: 7px;
+    margin: 9px;
+    color: #FF7F50;
+    border-radius: 10px;
+}
+li:hover{
+    background-color: white;
+    color: #FF7F50;
+    border: solid 2px #FF7F50;
+}
+.button{
+    background-color: #FF7F50;
+    color: white;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+    margin: 5px;
+}
+
+.button:hover{
+    background-color: white;
+    color: #FF7F50;
+    border: solid 2px #FF7F50;
+}
+
+
+.activeColor{
+    color: #8B008B;
+    text-decoration: underline;
+    text-decoration-color: #8B008B;
+    text-underline-position: below;
+}
+.inactiveColor{
+    color: #FF7F50;
+}
+
+  .close-button {
+    display: flex;
+    align-items: flex-end;
+    padding: 5px 10px 5px 10px;
+    margin: 20px;
+    size: 80px;
+  }

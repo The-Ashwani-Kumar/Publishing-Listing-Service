@@ -1,0 +1,72 @@
+.outer-container {
+    background-image: url("../../assets/contactUs.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  } 
+  .contact-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust the opacity as needed */
+    border-radius: 10px;
+    border: solid 1px #FF7F50;
+    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+  }
+  
+  
+  .contact-heading {
+    color: #FF7F50;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FF7F50;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #FF7F50;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+
+  .contact-container input[type="text"]::placeholder,
+.contact-container input[type="email"]::placeholder,
+.contact-container textarea::placeholder {
+  color: black; /* Change placeholder color to gray */
+}
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #FF7F50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #FF7F50;
+  }
+  
+  .confirmation-message {
+    padding: 20px;
+    background-color: #ffd699;
+    color: #333;
+    text-align: center;
+    border-radius: 5px;
+  }
+  

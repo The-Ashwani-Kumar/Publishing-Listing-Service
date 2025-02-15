@@ -1,0 +1,75 @@
+h1{
+    font-size: 3em;
+    text-align: start;
+}
+p{
+    text-align: start;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.myColor{
+    color: #FF7F50;
+}
+
+.searchBar{
+    border: solid 2px #FF7F50;
+    padding: 10px 20px 10px 10px;
+    border-radius: 30px;
+}
+
+.myBookCard{
+    margin: 10px;
+    border-radius: 30px;
+    border: solid 1px #FF7F50;
+    padding: 20px;
+    background-color: rgb(249, 246, 242);
+}
+
+.description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to display before truncating with ellipsis */
+    -webkit-box-orient: vertical;
+  }
+  
+  .book-details{
+    background-color: #ebebeb;
+    border-radius: 20px;
+  }
+
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #FF7F50;
+    /* border-radius: 20px; */
+  }
+  
+
+  tr:hover {
+    background-color: #FF7F50;
+    color: white;
+  }
+
+  
+  .alert-container {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red; /* Orange background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow */
+  }
+  
+  .alert-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

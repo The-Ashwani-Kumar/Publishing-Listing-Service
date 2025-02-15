@@ -1,0 +1,19 @@
+.myBookCard{
+    margin: 10px;
+    border-radius: 30px;
+    border: solid 1px #FF7F50;
+    padding: 20px;
+    background-color: rgb(249, 246, 242);
+}
+
+.heading{
+    color: #FF7F50;
+    background-color: #fff4f0;
+}
+
+.cardBackground{
+    border-radius: 30px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #FF7F50;
+}
